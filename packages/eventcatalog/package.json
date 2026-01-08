@@ -1,0 +1,17 @@
+{
+  "name": "eventcatalog",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "dev": "eventcatalog dev",
+    "build": "eventcatalog build",
+    "start": "eventcatalog start",
+    "preview": "eventcatalog preview",
+    "generate": "eventcatalog generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@eventcatalog/core": "https://github.com/cameronraysmith/eventcatalog/releases/download/v3.2.2-e475461b/eventcatalog-core-3.2.2.tgz"
+  }
+}
